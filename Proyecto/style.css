@@ -1,0 +1,287 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin: 0;
+}
+
+/*cabecerea*/
+header {
+    background: #51677e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header nav {
+    margin-top: 15px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+header a.cerrar {
+    margin-left: 20px;
+    background-color: #ff4d4d;
+    padding: 8px 15px;
+    border-radius: 4px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+header a.cerrar:hover {
+    background-color: #e60000;
+}
+
+/* Estilos para el contenedor principal */
+.seccion_principal {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.seccion_principal h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007BFF;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.seccion_principal ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.seccion_principal li {
+    margin: 10px 0;
+}
+
+.seccion_principal a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.seccion_principal a:hover {
+    color: #0056b3;
+}
+
+.menu {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.menu ul li:last-child {
+    border-bottom: none;
+}
+
+
+/* Estilos para el formulario de login */
+form {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="date"],
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 450px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos de mensaje de error */
+.error {
+    color: red;
+}
+
+/* Datos del usuario */
+.contenedor_perfil {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Contenedor del menu admin*/
+.contenedor_admin {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.contenedor_admin:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contenedor_admin button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Contenedor admitidos*/
+.contenedor_admitidos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.celda_admitidos {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    min-width: 250px;
+    min-height: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Cursos de admin*/
+.contenedor_curso {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.curso {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.curso:last-child {
+    border-bottom: none;
+}
+
+.curso h3 {
+    margin: 0;
+    color: #007BFF;
+}
+
+.curso label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-top: 5px;
+}
+
+.curso input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.resultado {
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    width: 60%;
+    text-align: center;
+    border: rgb(168, 58, 58) solid 1px;
+    border-radius: 20px;
+}
