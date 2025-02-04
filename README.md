@@ -12,13 +12,13 @@ Este proyecto es una aplicación web desarrollada en PHP que permite gestionar l
 La aplicación utiliza una base de datos llamada `cursoscp` con las siguientes tablas:
 
 <div align="center">
-  <img src="imgGithub/GestionProfesoradoPHPDB.PNG" alt="Base de datos" width="300">
+  <img src="imgGithub/GestionProfesoradoPHPDB.PNG" alt="Base de datos" width="500">
 </div>
 
 ## Funcionalidades
 - **Autenticación de usuarios**.
 <div align="center">
-  <img src="imgGithub/GestionProfesoradoPHPLogin.PNG" alt="Base de datos" width="300">
+  <img src="imgGithub/GestionProfesoradoPHPLogin.PNG" alt="Base de datos" width="500">
 </div>
 - **Activar/Desactivar cursos** (Administrador).
 - **Listar cursos activos**.
