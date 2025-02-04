@@ -1,4 +1,4 @@
-# Inscripción a Cursos de Formación
+# Inscripción a Cursos de Formación para Profesorado
 
 ## Descripción
 Este proyecto es una aplicación web desarrollada en PHP que permite gestionar la inscripción de profesores a cursos de formación. La asignación de plazas se realiza de manera automatizada según los méritos de cada solicitante una vez finalizado el plazo de inscripción.
@@ -7,6 +7,8 @@ Este proyecto es una aplicación web desarrollada en PHP que permite gestionar l
 - **PHP** para la lógica del servidor.
 - **MySQL** como sistema de gestión de base de datos.
 - **HTML, CSS y JavaScript** para la interfaz de usuario.
+- **Librerias PHP** uso de PHP-Mailer y FPDF
+- **Servidor de correos** Uso del servidor Axigen de manera local
 
 ## Base de Datos
 La aplicación utiliza una base de datos llamada `cursoscp` con las siguientes tablas:
@@ -14,6 +16,8 @@ La aplicación utiliza una base de datos llamada `cursoscp` con las siguientes t
 <div align="center">
   <img src="imgGithub/GestionProfesoradoPHPDB.PNG" alt="Base de datos" width="500">
 </div>
+
+La cual puedes importar del archivo Import DB/cursos.sql
 
 ## Funcionalidades
 - **Autenticación de usuarios**.
