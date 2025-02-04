@@ -37,20 +37,20 @@ La aplicación utiliza una base de datos llamada `cursoscp` con las siguientes t
 - **Baremación automática de solicitantes tras cierre de inscripción** (Administrador).
 
 <div align="center">
-  <img src="imgGithub/GestionProfesoradoPHPBaremacion.PNG" alt="Baremacion" width="500">
+  <img src="imgGithub/GestionProfesoradoPHPBaremacion.png" alt="Baremacion" width="500">
 </div>
   
 - **Listar admitidos en un curso** (Administrador).
 
 <div align="center">
-  <img src="imgGithub/GestionProfesoradoPHPAdmitidos.PNG" alt="Admitidos" width="500">
+  <img src="imgGithub/GestionProfesoradoPHPAdmitidos.png" alt="Admitidos" width="500">
 </div>
 
 - **Añadir/Eliminar cursos** (Administrador).
 
 <div align="center">
-  <img src="imgGithub/GestionProfesoradoPHPEliminar.png" alt="Eliminar cursos" width="500">
-  <img src="imgGithub/GestionProfesoradoPHPCrear.png" alt="Añadir cursos" width="500">
+  <img src="imgGithub/GestionProfesoradoPHPEliminar.png" alt="Eliminar cursos" width="500" heigth="200">
+  <img src="imgGithub/GestionProfesoradoPHPCrear.png" alt="Añadir cursos" width="500" heigth="200">
 </div>
 
 - **Creacion de pdf para correo de notificacion**.
