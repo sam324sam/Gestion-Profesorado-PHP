@@ -1,3 +1,5 @@
+![Estado](https://img.shields.io/badge/Estado-En%20proceso-yellow?style=plastic)
+
 # Inscripción a Cursos de Formación para Profesorado
 
 ## Descripción
