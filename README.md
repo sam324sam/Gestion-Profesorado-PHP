@@ -49,8 +49,8 @@ La aplicación utiliza una base de datos llamada `cursoscp` con las siguientes t
 - **Añadir/Eliminar cursos** (Administrador).
 
 <div align="center">
-  <img src="imgGithub/GestionProfesoradoPHPEliminar.png" alt="Eliminar cursos" width="500" heigth="200">
-  <img src="imgGithub/GestionProfesoradoPHPCrear.png" alt="Añadir cursos" width="500" heigth="200">
+  <img src="imgGithub/GestionProfesoradoPHPEliminar.png" alt="Eliminar cursos" width="500" height="200">
+  <img src="imgGithub/GestionProfesoradoPHPCrear.png" alt="Añadir cursos" width="500" height="200">
 </div>
 
 - **Creacion de pdf para correo de notificacion**.
