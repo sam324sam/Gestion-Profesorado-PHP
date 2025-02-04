@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost:3306
--- Tiempo de generación: 14-01-2025 a las 19:30:13
+-- Tiempo de generación: 04-02-2025 a las 13:31:54
 -- Versión del servidor: 8.0.40-0ubuntu0.24.04.1
 -- Versión de PHP: 8.3.6
 
@@ -40,11 +40,11 @@ CREATE TABLE `cursos` (
 --
 
 INSERT INTO `cursos` (`codigo`, `nombre`, `abierto`, `numeroplazas`, `plazoinscripcion`) VALUES
-(101, 'Curso de Programación PHP', 1, 0, '2025-01-31'),
+(101, 'Curso de Programación PHP', 0, 0, '2025-01-09'),
 (102, 'Introducción a la Robótica Educativa', 1, 0, '2025-02-15'),
 (103, 'Curso sin plazas', 1, 0, '2025-01-31'),
 (104, 'Curso fuera de plazo', 0, 1, '2020-01-02'),
-(105, 'Curso cerrado', 0, 0, '2016-01-02'),
+(105, 'Curso cerrado', 0, 1, '2016-01-02'),
 (106, 'Curso para la baremacion', 0, 3, '2025-01-13'),
 (109, 'Curso prueba', 1, 0, '2025-01-16'),
 (110, 'Curso cerrado 2', 0, 0, '2025-01-01');
@@ -79,12 +79,11 @@ CREATE TABLE `solicitantes` (
 --
 
 INSERT INTO `solicitantes` (`dni`, `apellidos`, `nombre`, `telefono`, `correo`, `codigocentro`, `coordinadortc`, `grupotc`, `nombregrupo`, `pbilin`, `cargo`, `nombrecargo`, `situacion`, `fechanac`, `especialidad`, `puntos`) VALUES
-('11223344D', 'Martínez Ruiz', 'Sofía', NULL, NULL, 'CT003', 0, 0, NULL, 0, 0, NULL, 'inactivo', '1992-12-05', 'Inglés', 5),
-('12345678A', 'Pérez López', 'Juan', '654321987', 'juan.perez@example.com', 'C00123', 1, 0, NULL, 1, 1, 'Director', 'activo', '1985-07-15', 'Matemáticas', 8),
-('12345678B', 'Gómez Pérez', 'Laura', '600123456', 'laura.gomez@example.com', 'CT001', 0, 1, 'Grupo A', 1, 0, NULL, 'activo', '1990-03-15', 'Matemáticas', 6),
-('12345678z', 'asdasd', 'asdasd', '12345678910', 'asdasd@gmail.com', 'asda', 1, 1, 'sssssa', 1, 0, 'Director', 'activo', '1998-10-14', 'fewsdfdsf', 13),
-('55667788E', 'Rodríguez Sánchez', 'Miguel', '600789123', 'miguel.rodriguez@example.com', NULL, 0, 0, NULL, 0, 1, 'Director', 'activo', '1980-11-10', 'Historia', 2),
-('87654321C', 'López Fernández', 'Carlos', '600654321', 'carlos.lopez@example.com', 'CT002', 1, 1, 'Grupo B', 0, 1, 'Subdirector', 'activo', '1985-06-20', 'Lengua Española', 9);
+('11223344D', 'Martínez Ruiz', 'Sofía', NULL, 'martínez.ruiz@cursos.com', 'CT003', 0, 0, NULL, 0, 0, NULL, 'inactivo', '1992-12-05', 'Inglés', 5),
+('12345678A', 'Pérez López', 'Juan', '654321987', 'juan.perez@cursos.com', 'C00123', 1, 0, NULL, 1, 1, 'Director', 'activo', '1985-07-15', 'Matemáticas', 8),
+('12345678B', 'Gómez Pérez', 'Laura', '600123456', 'laura.gomez@cursos.com', 'CT001', 0, 1, 'Grupo A', 1, 0, NULL, 'activo', '1990-03-15', 'Matemáticas', 6),
+('55667788E', 'Rodríguez Sánchez', 'Miguel', '600789123', 'miguel.rodriguez@cursos.com', NULL, 0, 0, NULL, 0, 1, 'Director', 'activo', '1980-11-10', 'Historia', 2),
+('87654321C', 'López Fernández', 'Carlos', '600654321', 'carlos.lopez@cursos.com', 'CT002', 1, 1, 'Grupo B', 0, 1, 'Subdirector', 'activo', '1985-06-20', 'Lengua Española', 9);
 
 -- --------------------------------------------------------
 
@@ -112,9 +111,9 @@ INSERT INTO `solicitudes` (`dni`, `codigocurso`, `fechasolicitud`, `admitido`) V
 ('12345678B', 101, '2025-01-09', 0),
 ('12345678B', 102, '2025-01-09', 0),
 ('12345678B', 106, '2025-01-13', 0),
-('12345678z', 101, '2025-01-14', 0),
 ('55667788E', 105, '2025-01-09', 1),
 ('55667788E', 106, '2025-01-14', 0),
+('87654321C', 101, '2025-01-30', 0),
 ('87654321C', 103, '2025-01-09', 1),
 ('87654321C', 105, '2025-01-01', 1),
 ('87654321C', 106, '2025-01-13', 0);
@@ -138,7 +137,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `usuario`, `clave`, `dni`, `admin`) VALUES
-(1, 'user_sin_dni', '1234', '12345678z', 0),
+(1, 'user_sin_dni', '1234', NULL, 0),
 (2, 'user_con_dni', '1234', '12345678A', 0),
 (3, 'admin', '1234', NULL, 1),
 (4, 'user_laurag', '1234', '12345678B', 0),
