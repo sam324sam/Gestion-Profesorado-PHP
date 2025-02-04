@@ -17,9 +17,11 @@ La aplicación utiliza una base de datos llamada `cursoscp` con las siguientes t
 
 ## Funcionalidades
 - **Autenticación de usuarios**.
+
 <div align="center">
   <img src="imgGithub/GestionProfesoradoPHPLogin.PNG" alt="Base de datos" width="500">
 </div>
+
 - **Activar/Desactivar cursos** (Administrador).
 - **Listar cursos activos**.
 - **Realizar inscripción en un curso**.
