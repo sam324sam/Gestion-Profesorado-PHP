@@ -98,7 +98,7 @@ La asignación de plazas se realiza según los siguientes méritos:
 Si quiere realizar cambios en el PDF o en el encvio del correo esto se encuentra en funciones_admin/funciones_db.php en las dos ultimas funciones.
 El PDF no admite caracteres especiales. Si deseas aportar una solución, puedes hacerlo mediante un [pull request](https://github.com/sam324sam/Gestion_Profesorado_PHP/pulls) o dejando un comentario en la sección de **Issues** de este repositorio.
 
-Agradecemos cualquier contribución que ayude a mejorar el proyecto.
+Agradesco cualquier contribución que ayude a mejorar el proyecto.
 
 ## Autor
 Este proyecto ha sido desarrollado por Samuel Moniz Pereira.
