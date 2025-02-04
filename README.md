@@ -19,16 +19,46 @@ La aplicación utiliza una base de datos llamada `cursoscp` con las siguientes t
 - **Autenticación de usuarios**.
 
 <div align="center">
-  <img src="imgGithub/GestionProfesoradoPHPLogin.PNG" alt="Base de datos" width="500">
+  <img src="imgGithub/GestionProfesoradoPHPLogin.PNG" alt="Inscripcion" width="500">
 </div>
 
 - **Activar/Desactivar cursos** (Administrador).
-- **Listar cursos activos**.
+
+<div align="center">
+  <img src="imgGithub/GestionProfesoradoPHPCerrarCursos.png" alt="Act/Desac" width="500">
+</div>
+
 - **Realizar inscripción en un curso**.
+
+<div align="center">
+  <img src="imgGithub/GestionProfesoradoPHPCursos.PNG" alt="Base de datos" width="500">
+</div>
+
 - **Baremación automática de solicitantes tras cierre de inscripción** (Administrador).
+
+<div align="center">
+  <img src="imgGithub/GestionProfesoradoPHPBaremacion.PNG" alt="Baremacion" width="500">
+</div>
+  
 - **Listar admitidos en un curso** (Administrador).
+
+<div align="center">
+  <img src="imgGithub/GestionProfesoradoPHPAdmitidos.PNG" alt="Admitidos" width="500">
+</div>
+
 - **Añadir/Eliminar cursos** (Administrador).
-- **Notificación por correo tras la inscripción**.
+
+<div align="center">
+  <img src="imgGithub/GestionProfesoradoPHPEliminar.png" alt="Eliminar cursos" width="500">
+  <img src="imgGithub/GestionProfesoradoPHPCrear.png" alt="Añadir cursos" width="500">
+</div>
+
+- **Creacion de pdf para correo de notificacion**.
+
+<div align="center">
+  <img src="imgGithub/GestionProfesoradoPHPPDF.png" alt="Correo" width="500">
+</div>
+
 
 ## Criterios de Baremación
 La asignación de plazas se realiza según los siguientes méritos:
@@ -52,11 +82,14 @@ La asignación de plazas se realiza según los siguientes méritos:
    ```
 2. Configurar el servidor web con PHP y MySQL.
 3. Importar la base de datos desde `cursoscp.sql`.
-4. Configurar las credenciales de la base de datos en `config/db.php`.
-5. Ejecutar la aplicación desde el navegador.
+4. Configurar las credenciales de la base de datos en `db.php`.
+5. Descargar la librería de **PHP Mailer**: [PHPMailer en GitHub](https://github.com/PHPMailer/PHPMailer)
+6. Descargar la librería **Fpdf186 v1.86**: [FPDF](http://www.fpdf.org/)
+7. Instalacion de un servidor mail En este caso El servidor Axigen [Axigen]([http://www.fpdf.org/](https://www.axigen.com/mail-server/download/))
+8. Ejecutar la aplicación desde el navegador.
 
 ## Autor
-Este proyecto ha sido desarrollado por [tu nombre].
+Este proyecto ha sido desarrollado por Samuel Moniz Pereira.
 
 ## Licencia
 Este proyecto se distribuye bajo la licencia MIT.
