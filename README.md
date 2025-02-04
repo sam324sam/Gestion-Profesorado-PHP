@@ -85,7 +85,7 @@ La asignación de plazas se realiza según los siguientes méritos:
 4. Configurar las credenciales de la base de datos en `db.php`.
 5. Descargar la librería de **PHP Mailer**: [PHPMailer en GitHub](https://github.com/PHPMailer/PHPMailer)
 6. Descargar la librería **Fpdf186 v1.86**: [FPDF](http://www.fpdf.org/)
-7. Instalacion de un servidor mail En este caso El servidor Axigen [Axigen]([http://www.fpdf.org/](https://www.axigen.com/mail-server/download/))
+7. Instalacion de un servidor mail En este caso El servidor Axigen [Axigen](https://www.axigen.com/mail-server/download/)
 8. Ejecutar la aplicación desde el navegador.
 
 ## Autor
