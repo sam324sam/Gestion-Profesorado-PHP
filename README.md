@@ -93,6 +93,10 @@ La asignación de plazas se realiza según los siguientes méritos:
 8. Instalacion de un servidor mail En este caso El servidor Axigen [Axigen](https://www.axigen.com/mail-server/download/).
 9. Ejecutar la aplicación desde el navegador.
 
+
+## Nota
+Si quiere realizar cambios en el PDF o en el encvio del correo esto se encuentra en funciones_admin/funciones_db.php en las dos ultimas funciones
+
 ## Autor
 Este proyecto ha sido desarrollado por Samuel Moniz Pereira.
 
