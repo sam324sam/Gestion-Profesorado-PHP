@@ -108,3 +108,6 @@ Este proyecto ha sido desarrollado por Samuel Moniz Pereira.
 ## Licencia
 Este proyecto se distribuye bajo la licencia MIT.
 
+## Contribuir al Proyecto
+Para conocer cómo contribuir, revisa nuestras [pautas de contribución](https://github.com/sam324sam/sam324sam/blob/main/CONTRIBUTING.md).
+
